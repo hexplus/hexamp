@@ -12,8 +12,8 @@
     "test": "node --test \"test/*.test.ts\""
   },
   "devDependencies": {
-    "@hexplus/pspx-types": "file:../../packages/pspx-types",
-    "pspx-cli": "file:../../packages/pspx-cli",
+    "@hexplus/pspx-types": "^0.1.0-alpha.1",
+    "pspx-cli": "^0.1.0-alpha.1",
     "typescript": "^7.0.2"
   }
 }
