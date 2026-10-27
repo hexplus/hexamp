@@ -1,0 +1,5 @@
+{
+    "server": "http://192.168.100.78:8096",
+    "playback": "stream",
+    "bitrate": 128
+}

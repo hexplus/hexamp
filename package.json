@@ -1,0 +1,19 @@
+{
+  "name": "hexamp",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "pspx dev",
+    "build": "pspx build --release",
+    "psp": "pspx run",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "devDependencies": {
+    "@hexplus/pspx-types": "file:../../packages/pspx-types",
+    "pspx-cli": "file:../../packages/pspx-cli",
+    "typescript": "^7.0.2"
+  }
+}
